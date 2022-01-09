@@ -17,3 +17,50 @@
     border:4px solid black;
     transform: rotate(90deg);
 }
+@keyframes animat {
+    from{
+        background-color: rgb(70, 163, 52);
+        left:0;
+        top: 0;
+    }
+    to{
+        background-color: crimson;
+        left: 400px;
+        top:400px;
+    }
+}
+@keyframes animat2 {
+    from{
+        background-color: rgb(70, 163, 52);
+        left:400px;
+        top: 0;
+    }
+    to{
+        background-color: crimson;
+        left: 0px;
+        top:300px;
+    }
+}
+.stage{
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: chocolate;
+    border-radius: 50%;
+    animation: animat 1s ease-in-out .08s infinite running alternate;
+    
+}
+.ball-2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: chocolate;
+    border-radius: 50%;
+    animation: animat2 1s ease-in-out .08s infinite running alternate;
+    
+}
