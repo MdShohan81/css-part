@@ -1,0 +1,19 @@
+.trans-parents{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(127, 181, 228);
+    border: 4px solid green;
+    position: relative;
+   
+    
+}
+.tran-child:hover {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    width: 200px;
+    height: 200px;
+    background-color:blanchedalmond;
+    border:4px solid black;
+    transform: rotate(90deg);
+}
